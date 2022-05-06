@@ -18,11 +18,12 @@ def play_audio_from_text(text):
     """Play audio from text"""
     tts = gTTS(text, lang='vi')
     tts.save("output.mp3")
-    playsound.playsound('output.mp3', True)
+    playsound.playsound('output.mp3', False)
 
 def listen_and_respond():
     """Listen and response to user commands"""
     print("Listening...")
+    playsound.playsound("activate.wav", False)
     with sr.Microphone() as source:                # use the default microphone as the audio source
         audio = speech_recognizer.listen(source)
 
