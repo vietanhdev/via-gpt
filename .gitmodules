@@ -1,0 +1,3 @@
+[submodule "mycroft-precise"]
+	path = mycroft-precise
+	url = https://github.com/MycroftAI/mycroft-precise

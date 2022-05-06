@@ -1,0 +1,6 @@
+__pycache__
+*.pyc
+/data
+/ok-via*
+/mycroft-precise/ok-via*
+/mycroft-precise/*.logs
