@@ -27,7 +27,7 @@ From now on, use following commands in any Terminal to activate the **precise** 
 source .venv/bin/activate
 ```
 
-### 2. Train your ownn wake word detector
+### 2. Train your own wake word detector
 
 For training your custom wake word, use the instruction [here](https://github.com/MycroftAI/mycroft-precise/wiki/Training-your-own-wake-word#how-to-train-your-own-wake-word).
 
