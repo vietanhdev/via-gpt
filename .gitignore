@@ -5,3 +5,4 @@ __pycache__
 /mycroft-precise/ok-via*
 /mycroft-precise/*.logs
 /output.mp3
+.env
