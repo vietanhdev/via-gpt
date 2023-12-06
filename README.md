@@ -1,9 +1,10 @@
-# VIA Voice - Voice interface for VIA
+# VIA GPT - Talk with VIA
 
 This project is still in early development. Features:
+
 - Wake word detection
 - Voice recognition
-- Voice control for VIA robots
+- Voice chat with ChatGPT
 
 ## I. Train your wake word detector
 
@@ -16,7 +17,7 @@ The source code are indented to support Linux systems (Ubuntu, Raspbian, ...). H
 Wake word detector Mycroft Precision requires **Python 3.7** because all Python >= 3.8 don't have a right Tensorflow version. You can use an Anaconda/Miniconda environment. Clone and run environment setup:
 
 ```
-git clone https://github.com/makerhanoi/via-voice --recursive
+git clone https://github.com/vietanhdev/via-gpt --recursive
 cd via-voice/mycroft-precise
 ./setup.sh
 ```
